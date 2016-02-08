@@ -267,7 +267,7 @@ If MADE_check = 1 then call write_new_line_in_case_note("* Emailed MADE.")
 If MAEPD_premium <> "" or MADE_check = 1 then call write_new_line_in_case_note("---")
 call write_new_line_in_case_note(worker_signature)
 
-call script_end_procedure("")
+call script_end_procedure("Success! Remember to update MMIS.")
 
 
 
